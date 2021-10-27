@@ -1,163 +1,163 @@
 html {
-  box-sizing: border-box;
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-  line-height: 1;
-  font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
 }
 
 body {
-  background-color: #444;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	background-color: #333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 #project-1 {
-  margin: 25vh auto 0 auto;
-  text-align: center;
-  background-color: #eee;
-  color: #222;
-  padding: 2rem 2rem 3rem 2rem;
-  border-radius: 50px;
-  box-shadow: 0 0 100px #000;
-  border: 5px solid rgba(17, 17, 17, 0.8);
-  max-height: 450px;
+	margin: 25vh auto 0 auto;
+	text-align: center;
+	background-color: #eee;
+	color: #222;
+	padding: 2rem 2rem 3rem 2rem;
+	border-radius: 50px;
+	box-shadow: 0 0 100px #000;
+	border: 5px solid rgba(17, 17, 17, 0.8);
+	max-height: 450px;
 }
 
 #project-1 h2 {
-  color: rgba(17, 17, 17, 0.8);
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 400;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	color: rgba(17, 17, 17, 0.8);
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 400;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #project-1 h4 {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 2px;
-  background-color: #ddd;
-  width: 50%;
-  margin: 1rem auto;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 -5px rgba(0, 0, 0, 0.8);
-  border: 3px solid #333;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.5rem;
+	font-weight: 400;
+	letter-spacing: 2px;
+	background-color: #ddd;
+	width: 50%;
+	margin: 1rem auto;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	box-shadow: 0 0 -5px rgba(0, 0, 0, 0.8);
+	border: 3px solid #333;
 }
 
 #project-1 h4.start-time {
-  border: 3px solid rgba(26, 87, 26, 0.8);
+	border: 3px solid rgba(26, 87, 26, 0.8);
 }
 
 #project-1 h4.stop-time {
-  border: 3px solid rgba(87, 26, 26, 0.8);
+	border: 3px solid rgba(87, 26, 26, 0.8);
 }
 
 #milliseconds {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 #project-1 #stopwatch-buttons {
-  border-bottom: 2px solid #ccc;
-  padding: 1rem;
+	border-bottom: 2px solid #ccc;
+	padding: 1rem;
 }
 
 #project-1 button {
-  padding: 0.5rem 1rem;
-  margin: 1rem 0.25rem;
-  border-radius: 5px;
-  border: none;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	padding: 0.5rem 1rem;
+	margin: 1rem 0.25rem;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 #project-1 button i {
-  font-size: 1.5rem;
-  color: #fff;
+	font-size: 1.5rem;
+	color: #fff;
 }
 
 #project-1 button:hover {
-  cursor: pointer;
-  opacity: 0.6;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
-  transition: all 0.4s;
+	cursor: pointer;
+	opacity: 0.6;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+	transition: all 0.4s;
 }
 
 #start {
-  background-color: rgba(26, 87, 26, 0.8);
+	background-color: rgba(26, 87, 26, 0.8);
 }
 
 #stop {
-  background-color: rgba(87, 26, 26, 0.8);
+	background-color: rgba(87, 26, 26, 0.8);
 }
 
 #reset {
-  background-color: rgba(86, 87, 26, 0.8);
+	background-color: rgba(86, 87, 26, 0.8);
 }
 
 #project-1 #lap {
-  color: #fff;
-  background-color: #222;
+	color: #fff;
+	background-color: #222;
 }
 
 #project-1 #stopwatch-laps {
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: column-reverse;
-  overflow-y: auto;
-  max-height: 210px;
+	padding-top: 1rem;
+	display: flex;
+	flex-direction: column-reverse;
+	overflow-y: auto;
+	max-height: 210px;
 }
 
 #project-1 #stopwatch-laps::-webkit-scrollbar {
-  width: 8px;
+	width: 8px;
 }
 
 #project-1 #stopwatch-laps::-webkit-scrollbar-track {
-  background: #eee;
+	background: #eee;
 }
 
 #project-1 #stopwatch-laps::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  border: none;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	border: none;
 }
 
 #project-1 #stopwatch-laps::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 #project-1 h5 {
-  font-size: 1rem;
-  letter-spacing: 2px;
-  padding: 1rem 0.5rem;
-  font-weight: 400;
-  border-radius: 10px;
-  margin: 0.5rem;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	padding: 1rem 0.5rem;
+	font-weight: 400;
+	border-radius: 10px;
+	margin: 0.5rem;
 }
 
 #project-1 h5 span {
-  font-weight: 900;
+	font-weight: 900;
 }
 
 #project-1 h5.winner {
-  color: rgba(26, 87, 26, 1);
-  border: 10px solid rgba(26, 87, 26, 0.8);
-  border-top: none;
-  border-bottom: none;
-  background-color: rgba(26, 87, 26, 0.2);
+	color: rgba(26, 87, 26, 1);
+	border: 10px solid rgba(26, 87, 26, 0.8);
+	border-top: none;
+	border-bottom: none;
+	background-color: rgba(26, 87, 26, 0.2);
 }
 
 #project-1 h5.loser {
-  color: rgba(87, 26, 26, 1);
-  border: 10px solid rgba(87, 26, 26, 0.8);
-  border-bottom: none;
-  border-top: none;
-  background-color: rgba(87, 26, 26, 0.2);
+	color: rgba(87, 26, 26, 1);
+	border: 10px solid rgba(87, 26, 26, 0.8);
+	border-bottom: none;
+	border-top: none;
+	background-color: rgba(87, 26, 26, 0.2);
 }
